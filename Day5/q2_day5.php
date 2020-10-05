@@ -25,7 +25,7 @@ if(@$_POST["submit"])
  $msg = "Hey $name thanks for filling feedback. Here is what we got from you: \n";
  $finalmsg = $msg . $feedback;
  $finalmsg = wordwrap($finalmsg, 70);
- $headers = "From: meshree4@gmail.com";
+ $headers = "From: walunjkirnesh@gmail.com";
  $headers1 = "From: $mailto";
 
  $msg1 = "Here is what we got from $name ($mailto): \n";
